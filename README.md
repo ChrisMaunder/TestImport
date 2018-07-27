@@ -27,7 +27,9 @@ Given a container for a vehicle which includes its make, model, and year, expose
     }
 C# implements a default constructor for this class, such that we can instantiate it with:
 
-    var vehicle = new Vehicle();
+```Javascript
+var vehicle = new Vehicle();
+```
 
 This isn't very helpful because we have no way of initializing the fields `make`, `model`, and `year`.
 
